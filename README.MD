@@ -77,50 +77,50 @@ $ ./vendor/bin/phpunit
 
 #### Folder Structure
 
-├── composer.json
-├── composer.lock
-├── phpunit.xml
-├── public
-│   ├── config.php
-│   ├── dump.sql
-│   ├── index.php
-│   └── quick-orders.csv
-├── README.MD
-├── src
-│   └── App
-│       └── Demo
-│           ├── Command
-│           │   └── DownloadFileCommand.php
-│           ├── CsvReader
-│           │   ├── Migration.php
-│           │   └── Reader.php
-│           ├── DbConnection.php
-│           ├── Downloader
-│           │   └── StreamDownloader.php
-│           ├── Entity
-│           │   ├── Model.php
-│           │   ├── Order.php
-│           │   └── Product.php
-│           ├── Exception
-│           │   ├── DownloaderException.php
-│           │   └── MigrationException.php
-│           ├── Repository
-│           │   ├── OrderRepository.php
-│           │   └── ProductRepository.php
-│           └── Transformer
-│               └── CsvTransformer.php
-└── tests
-    └── App
-        └── Demo
-            ├── Command
-            │   └── DownloadFileCommandTest.php
-            ├── CsvReader
-            │   └── MigrationTest.php
-            ├── Downloader
-            │   └── StreamDownloaderTest.php
-            ├── Repository
-            │   ├── OrderRepositoryTest.php
-            │   └── ProductRepositoryTest.php
-            └── Transformer
-                └── CsvTransformerTest.php
+├── composer.json  
+├── composer.lock  
+├── phpunit.xml  
+├── public  
+│   ├── config.php  
+│   ├── dump.sql  
+│   ├── index.php  
+│   └── quick-orders.csv  
+├── README.MD  
+├── src  
+│   └── App  
+│       └── Demo  
+│           ├── Command  
+│           │   └── DownloadFileCommand.php  
+│           ├── CsvReader  
+│           │   ├── Migration.php  
+│           │   └── Reader.php  
+│           ├── DbConnection.php  
+│           ├── Downloader  
+│           │   └── StreamDownloader.php  
+│           ├── Entity  
+│           │   ├── Model.php  
+│           │   ├── Order.php  
+│           │   └── Product.php  
+│           ├── Exception  
+│           │   ├── DownloaderException.php  
+│           │   └── MigrationException.php  
+│           ├── Repository  
+│           │   ├── OrderRepository.php  
+│           │   └── ProductRepository.php  
+│           └── Transformer  
+│               └── CsvTransformer.php  
+└── tests  
+    └── App  
+        └── Demo  
+            ├── Command  
+            │   └── DownloadFileCommandTest.php  
+            ├── CsvReader  
+            │   └── MigrationTest.php  
+            ├── Downloader  
+            │   └── StreamDownloaderTest.php  
+            ├── Repository  
+            │   ├── OrderRepositoryTest.php  
+            │   └── ProductRepositoryTest.php  
+            └── Transformer  
+                └── CsvTransformerTest.php  
 
