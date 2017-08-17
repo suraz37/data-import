@@ -10,13 +10,12 @@ Simple script that retrieves file from a URL and imports data into database
 |Directory | Remarks|
 |----------|--------|
 |src/demo/DownloadCommand| Command class|
-|src/demo/CsvReader| Read from csv and Migrate|
-|src/demo/Entity | Model class|
-|src/demo/Repository | Class to communicate with database.|
+|src/demo/CsvReader| Read from csv and migrate|
+|src/demo/Entity | Model class.|
+|src/demo/Repository | Repository Class.|
 |src/demo/Downloader | Downloader Class with source url and destination path.|
 |src/demo/Exception | Exception Handler.|
 |src/demo/Transformer | Data mapper.|
-|log | Save log files.|
 |tests | Test cases.|
 
 
