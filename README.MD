@@ -51,15 +51,15 @@ public/config.php
 Script to run application
 
 ```shell
-$ php example/index.php app:download-file http://localhost:3000/public/quick-orders.csv
+$ php public/index.php app:download-file http://localhost:3000/public/quick-orders.csv
 ```
 
 ### script Descriptions
 | script | Remarks |
 |------|---------|
-|php | Execute mode for php |
+|php | Execute |
 |public/index.php | Start application |
-|app:download-file | Script to download |
+|app:download-file | Command |
 |http://localhost:3000/public/quick-orders.csv | File url |
 
 #### Output Response.
