@@ -1,4 +1,4 @@
-##  Import data [![Travis](https://img.shields.io/travis/suraz37/?style=flat-square)](https://travis-ci.org/suraz37/import-data)
+##  Import data [![Travis](https://travis-ci.org/suraz37/import-data.svg)](https://travis-ci.org/suraz37/import-data)
 Simple script that retrieves file from a URL and imports data into database
 
 ### Requirements
@@ -74,3 +74,53 @@ Total Data import: 1000
 ```
 $ ./vendor/bin/phpunit
 ```
+
+#### Folder Structure
+
+├── composer.json
+├── composer.lock
+├── phpunit.xml
+├── public
+│   ├── config.php
+│   ├── dump.sql
+│   ├── index.php
+│   └── quick-orders.csv
+├── README.MD
+├── src
+│   └── App
+│       └── Demo
+│           ├── Command
+│           │   └── DownloadFileCommand.php
+│           ├── CsvReader
+│           │   ├── Migration.php
+│           │   └── Reader.php
+│           ├── DbConnection.php
+│           ├── Downloader
+│           │   └── StreamDownloader.php
+│           ├── Entity
+│           │   ├── Model.php
+│           │   ├── Order.php
+│           │   └── Product.php
+│           ├── Exception
+│           │   ├── DownloaderException.php
+│           │   └── MigrationException.php
+│           ├── Repository
+│           │   ├── OrderRepository.php
+│           │   └── ProductRepository.php
+│           └── Transformer
+│               └── CsvTransformer.php
+└── tests
+    └── App
+        └── Demo
+            ├── Command
+            │   └── DownloadFileCommandTest.php
+            ├── CsvReader
+            │   └── MigrationTest.php
+            ├── Downloader
+            │   └── StreamDownloaderTest.php
+            ├── Repository
+            │   ├── OrderRepositoryTest.php
+            │   └── ProductRepositoryTest.php
+            └── Transformer
+                └── CsvTransformerTest.php
+
