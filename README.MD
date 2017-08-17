@@ -1,5 +1,4 @@
-##  Import data [![Travis](https://img.shields.io/travis/suraz37/?style=flat-square)]
-(https://travis-ci.org/suraz37/import-data)
+##  Import data [![Travis](https://img.shields.io/travis/suraz37/?style=flat-square)](https://travis-ci.org/suraz37/import-data)
 Simple script that retrieves file from a URL and imports data into database
 
 ### Requirements
@@ -71,7 +70,7 @@ Source : http://localhost:3000/public/quick-orders.csv
 Total Data import: 1000
 ```
 
-Run the tests
+#### Run the tests
 ```
 $ ./vendor/bin/phpunit
 ```
