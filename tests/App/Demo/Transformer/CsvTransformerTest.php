@@ -1,6 +1,9 @@
 <?php
+namespace App\Tests\Transformer;
 
 use App\Demo\Transformer\CsvTransformer;
+use ArrayIterator;
+use LimitIterator;
 use PHPUnit\Framework\TestCase;
 
 /**

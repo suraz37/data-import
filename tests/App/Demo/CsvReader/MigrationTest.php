@@ -1,5 +1,5 @@
 <?php
-namespace App\Tests;
+namespace App\Tests\CsvReader;
 
 use App\Demo\CsvReader\Migration;
 use App\Demo\CsvReader\Reader;

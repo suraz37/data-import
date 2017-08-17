@@ -1,5 +1,5 @@
 <?php
-namespace App\Tests;
+namespace App\Tests\Downloader;
 
 use App\Demo\Downloader\StreamDownloader;
 use PHPUnit\Framework\TestCase;

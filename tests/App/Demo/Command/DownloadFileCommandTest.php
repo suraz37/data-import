@@ -1,8 +1,5 @@
 <?php
-namespace App\Tests;
-
-use App\Demo\Command\DownloadFileCommand;
-use App\Demo\Downloader\StreamDownloader;
+namespace App\Tests\Command;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Application;

@@ -1,5 +1,5 @@
 <?php
-namespace App\Tests;
+namespace App\Tests\Repository;
 
 use App\Demo\Entity\Product;
 use App\Demo\Repository\ProductRepository;
@@ -71,6 +71,5 @@ class ProductRepositoryTest extends TestCase
         $result = $this->repository->insert($param);
 
         $this->assertEquals(true, $result);
-
     }
 }
